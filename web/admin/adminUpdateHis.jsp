@@ -22,11 +22,13 @@
                 <span class="input-group-addon">日期:</span>
                 <input type="date" class="form-control" name="日期">
             </div>
-            正文: <textarea name="内容" class="weui_textarea"/>
+            正文: <textarea name="内容" class="weui_textarea" rows="4"></textarea>
+
+            <br>
+            <input type="submit" value="提交" class="btn btn-primary">
+            &emsp;
+            <input type="reset" value="清空" class="btn btn-warning">
         </div>
-        <input type="submit" value="提交" class="btn btn-primary">
-        &emsp;
-        <input type="reset" value="清空" class="btn btn-warning">
     </div>
 </form>
 

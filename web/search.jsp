@@ -1,22 +1,25 @@
 <%--诗词查询--%>
-
+<%
+    response.setHeader("Access-Control-Allow-Origin", "*");
+%>
+<link rel="stylesheet" href="/support/css/search.css">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <jsp:include page="layoutHead.jsp"/>
+
 <div class="row">
     <div class="col-xs-10 col-xs-offset-1">
         <div class="input-group">
             <input type="text" class="form-control" name="shici">
-                <span class="input-group-btn">
-                    <button type="button" class="btn btn-default btn-user" id="search">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                </span>
+            <div class="input-group-addon" id="sc-search-bar">
+                <span class="glyphicon glyphicon-search btn-user"></span>
+            </div>
         </div>
     </div>
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <div>
+        <div id="sc-styles">
             <input type="radio" name="sctype" value="期号">期号
             <input type="radio" name="sctype" value="诗词">题目
             <input type="radio" name="sctype" value="作者">作者
@@ -50,13 +53,13 @@
 
 <jsp:include page="layoutFoot.jsp"/>
 <script>
-    $("#search").click(function(){
+    $("#sc-search-bar").click(function(){
         $(".showShici").children().remove();
         var s_data = $("input[name='shici']").val();
         var s_type = $("input[name='sctype']:radio:checked").val();
         $.ajax({
             type: "post",
-            url: "shiciSearch.php",
+            url: "http://cake.wolfogre.com:8080/GuShiCi/searchResult",
             data: {"s_data":s_data, "s_type":s_type},
             //说明返回的数据是json, 解析的时候js会将之解析成一个json对象而不是文本之类的
             //dataType: 'json',

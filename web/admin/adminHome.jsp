@@ -5,9 +5,9 @@
 
 <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
-        <a href="#"><button class="btn btn-success btn-block">查看反馈</button></a><br>
-        <a href="#"><button class="btn btn-success btn-block">查看推荐</button></a><br>
-        <a href="#"><button class="btn btn-success btn-block">查看原创</button></a><br>
+        <a href="adminFeedback.jsp"><button class="btn btn-success btn-block">查看反馈</button></a><br>
+        <a href="adminRecomend.jsp"><button class="btn btn-success btn-block">查看推荐</button></a><br>
+        <a href="adminOriginal.jsp"><button class="btn btn-success btn-block">查看原创</button></a><br>
         <a href="adminUpdateHis.jsp"><button class="btn btn-success btn-block">录入诗词</button></a><br>
     </div>
 </div>

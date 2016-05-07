@@ -27,19 +27,17 @@
                     赏析
                 </div>
             </div>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <a href="#"><button type="button" class="btn btn-default">上一条</button></a>
+                </div>
+                <div class="btn-group" role="group">
+                    <a href="#"><button type="button" class="btn btn-default">通过</button></a>
+                </div>
+                <div class="btn-group" role="group">
+                    <a href="#"><button type="button" class="btn btn-default">下一条</button></a>
+                </div>
+            </div>
         </div>
     </div>
-<div class="row">
-    <div class="btn-group btn-group-justified" role="group" aria-label="...">
-        <div class="btn-group" role="group">
-            <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-backward"></span></button></a>
-        </div>
-        <div class="btn-group" role="group">
-            <a href="#"><button type="button" class="btn btn-default">通过</button></a>
-        </div>
-        <div class="btn-group" role="group">
-            <a href="#"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-forward"></span></button></a>
-        </div>
-    </div>
-</div>
 <jsp:include page="layoutFoot.jsp"/>

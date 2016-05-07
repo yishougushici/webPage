@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: zhaokuo
-  Date: 2016/5/6
-  Time: 18:53
-  To change this template use File | Settings | File Templates.
---%>
+<%--布局页--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -37,9 +31,10 @@
                         <h1>这里写每个模块的标题</h1>
                     </div>
                 </div>
-                <div class="row">
-                    这里写不同板块的内容
-                </div>
+
+                <%--主体--%>
+
+
                 <div class="row">
                     <div class="sc-back">
                         <a href="/index.jsp"><img src="/support/image/back.png" alt=""></a>

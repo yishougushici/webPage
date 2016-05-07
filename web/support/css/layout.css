@@ -1,0 +1,57 @@
+body{
+    background-color: #706f73 ;
+    background-image: url("/support/image/bg-full.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.sc-content{
+    background-color: rgb(211,219,156);
+    height: 100%;
+    box-shadow: #3c3c3c 0px 0px 10px 8px;
+    text-align: center;
+}
+
+.sc-info-icon{
+    display: inline;
+}
+
+.sc-info-name{
+    display: inline;
+}
+
+.sc-logo{
+    text-align: center;
+    margin:10px 0;
+}
+
+.sc-title{
+    text-align: center;
+    font-family: "微软雅黑","YaHei Consolas Hybrid";
+}
+
+.sc-back{
+    position: fixed;
+    bottom:14px;
+    margin: 10px 0;
+}
+
+.sc-back img{
+    height: 50px;
+    width:50px;
+}
+
+.sc-footer{
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+}
+
+.sc-copyright{
+    position: relative;
+    text-align: center;
+}

@@ -11,14 +11,12 @@
           <span class="input__label-content input__label-content--hoshi">用户名</span>
         </label>
       </span>
-      <br>
       <span class="input input--hoshi">
         <input class="input__field input__field--hoshi" type="text" name="suser_password" id="suser_password" />
         <label class="input__label input__label--hoshi input__label--hoshi-color-2" for="suser_password">
           <span class="input__label-content input__label-content--hoshi">密码</span>
         </label>
       </span>
-      <br>
       <input type="submit" class="btn btn-block btn-success" value="登录">
     </form>
   </div>

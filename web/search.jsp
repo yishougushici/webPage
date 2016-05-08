@@ -3,6 +3,7 @@
     response.setHeader("Access-Control-Allow-Origin", "*");
 %>
 <link rel="stylesheet" href="/support/css/search.css">
+<link rel="stylesheet" href="/support/select/demo.css">
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <jsp:include page="layoutHead.jsp"/>
@@ -17,14 +18,34 @@
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="col-xs-12">
         <div id="sc-styles">
-            <input type="radio" name="sctype" value="期号">期号
-            <input type="radio" name="sctype" value="诗词">题目
-            <input type="radio" name="sctype" value="作者">作者
-            <input type="radio" name="sctype" value="内容">内容
-            <input type="radio" name="sctype" value="all" checked="checked">模糊查询
+        <fieldset class="radios">
+            <label for="sc_num" class="label_radio">
+                <input id="sc_num" type="radio" name="sctype" value="期号">期号
+            </label>
+            <label for="sc_title" class="label_radio">
+                <input id="sc_title"  type="radio" name="sctype" value="诗词">题目
+            </label>
+            <label for="sc_auth" class="label_radio">
+                <input id="sc_auth" type="radio" name="sctype" value="作者">作者
+            </label>
+            <label for="sc_content" class="label_radio">
+                <input id="sc_content" type="radio" name="sctype" value="内容">内容
+            </label>
+            <label for="sc_all" class="label_radio">
+                <input id="sc_all" type="radio" name="sctype" value="all" checked="checked">模糊查询
+            </label>
+
+        </fieldset>
+
+
+
+
+
+
         </div><br><br>
 
         <div id="loadingToast" class="weui_loading_toast" style="display:none;">
@@ -50,8 +71,8 @@
         <div class="showShici"></div>
     </div>
 </div>
-
 <jsp:include page="layoutFoot.jsp"/>
+<script src="/support/select/select.js"></script>
 <script>
     $("#sc-search-bar").click(function(){
         $(".showShici").children().remove();

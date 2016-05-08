@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
                 <div class="row">
                     <div class="sc-back">
-                        <a href="/index.jsp"><img src="/support/image/back.png" alt=""></a>
+                        <a href="javascript:history.back();"><img src="/support/image/back.png" alt=""></a>
                     </div>
                 </div>
                 <div class="row">

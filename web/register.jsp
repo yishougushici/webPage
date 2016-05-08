@@ -7,16 +7,31 @@
 <form action="Register">
     <div class="row">
         <div class="col-xs-10 col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-sm-offset-1 col-md-offset-1 col-xs-offset-1">
-            <form action="Login">
-                <input type="text" class="form-control" name="suser_name" placeholder="用户名">
-                <br>
-                <input type="password" class="form-control" name="suser_password" placeholder="密码">
-                <br>
-                <input type="email" class="form-control" name="suser_eamil" placeholder="E-mail">
-                <input type="submit" class="btn btn-success" value="登录">
-                &emsp;
-                <input type="reset" class="btn btn-default" value="重置">
-            </form>
+            <span class="input input--hoshi">
+                <input class="input__field input__field--hoshi" type="text" name="suser_name" id="suser_name" />
+                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="suser_name">
+                    <span class="input__label-content input__label-content--hoshi">用户名</span>
+                </label>
+            </span>
+            <span class="input input--hoshi">
+                <input class="input__field input__field--hoshi" type="text" name="suser_password" id="suser_password" />
+                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="suser_password">
+                    <span class="input__label-content input__label-content--hoshi">密码</span>
+                </label>
+            </span>
+            <span class="input input--hoshi">
+                <input class="input__field input__field--hoshi" type="text" name="suser_eamil" id="suser_eamil" />
+                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="suser_eamil">
+                    <span class="input__label-content input__label-content--hoshi">E-mail</span>
+                </label>
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+            <input type="submit" class="btn btn-success" value="注册">
+            &emsp;
+            <input type="reset" class="btn btn-default" value="重置">
         </div>
     </div>
 </form>

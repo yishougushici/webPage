@@ -20,8 +20,9 @@
     <link rel="stylesheet" href="/support/css/bootstrap.min.css">
     <link rel="stylesheet" href="/support/css/layout.css">
     <link rel="stylesheet" href="/support/css/weui.min.css">
-    <script src="support/js/jquery-2.2.3.js"></script>
-    <script src="support/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/support/css/component.css">
+    <script src="/support/js/jquery-2.2.3.js"></script>
+    <script src="/support/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container">

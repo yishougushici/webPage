@@ -11,15 +11,3 @@
     display:inline;
 }
 
-.err-elem{
-    background-image: url("/support/image/errbg.png");
-    -webkit-background-size:contain;
-    background-size:100%;
-    width: 64px;
-    height:64px;
-    font-family: "微软雅黑", "YaHei Consolas Hybrid";
-    font-size: 36px;
-    display: inline-block;
-    text-align: center;
-    line-height: 64px;
-}

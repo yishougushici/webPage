@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <jsp:include page="/layoutHead.jsp"/>
-<link rel="stylesheet" href="/chat/style.css">
+<link rel="stylesheet" href="/support/chat/style.css">
 
 <div class="row">
     <div class="col-xs-10 col-xs-offset-1">
@@ -38,8 +38,9 @@
         var mychat = $("<li></li>")
         mychat.append(text);
         mychat.addClass("mychat");
-        $("#convo").append(mychat);
-
+        $("convo").append(mychat);
+//        var aaa = document.getElementById("convo");
+//        aaa.scrollTop = aaa.scrollHeight;
     }
 </script>
 

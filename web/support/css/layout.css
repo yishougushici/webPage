@@ -8,7 +8,7 @@ body{
 .sc-content{
     background-color: rgb(211,219,156);
     height: 100%;
-    box-shadow: #3c3c3c 0px 0px 10px 8px;
+    box-shadow: #fff 0px 0px 10px 5px;
 }
 
 .sc-username{
@@ -101,3 +101,13 @@ body{
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
 }
 
+/*整个项目的a标签样式*/
+a{
+    font-family: "微软雅黑", "YaHei Consolas Hybrid";
+    font-size:24px;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
